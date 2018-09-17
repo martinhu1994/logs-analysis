@@ -10,7 +10,7 @@ def report_one(cursor):
     try:
         cursor.execute('''
             SELECT articles.title, articleviews.views
-            FROM articles JOIN articleviews ON articles.slug = articleviews.slug
+            FROM articles JOIN articleviews ON articles.slug=articleviews.slug
             ORDER BY articleviews.views DESC
             LIMIT 3''')
     except psycopg2.Error as e:
