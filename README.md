@@ -1,5 +1,5 @@
 # Logs Analysis
-This is a SQL-based project. Python code is used to connect PostgreSQL database and execute queries. Three simple reports are generated.
+This is a SQL-based project. Python code is used to connect PostgreSQL database and execute queries. Three simple reports are generated. Each report has a function in source code. The main function calls three report functions and organizes the final output.
 
 ## Content
 There are two files in the project:
